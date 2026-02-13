@@ -1,0 +1,13 @@
+/* The class we add to spoiler elements */
+.spoiler-blurred {
+  filter: blur(8px) !important;
+  transition: filter 0.3s ease;
+  cursor: pointer;
+  user-select: none; /* Prevents accidental highlighting */
+}
+
+/* When the user clicks to reveal */
+.spoiler-unblurred {
+  filter: none !important;
+  cursor: default;
+}
