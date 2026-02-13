@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Spoiler Shield",
+  "name": "Spoiler Alert!",
   "version": "1.0",
-  "description": "Blurs spoilers based on keywords.",
+  "description": "Never ever spoil another series or movie again!.",
   "permissions": ["storage"],
   "action": {
     "default_popup": "popup.html"

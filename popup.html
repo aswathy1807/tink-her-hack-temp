@@ -2,20 +2,20 @@
 <html>
 <head>
   <style>
-    body { width: 250px; font-family: 'Segoe UI', sans-serif; padding: 15px; background: #f4f4f4; }
-    h3 { margin-top: 0; color: #333; }
+    body { width: 300px; font-family: 'Times New Roman', sans-serif; padding: 15px; background: #d0bddf; }
+    h3 { margin-top: 0; color: #6e1876; }
     .input-group { display: flex; gap: 5px; margin-bottom: 15px; }
-    input { flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
-    button#addBtn { padding: 8px 12px; background: #2ecc71; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    input { flex: 1; padding: 8px; border: 1px solid #140808; border-radius: 4px; }
+    button#addBtn { padding: 8px 12px; background: #f5a8e9; color: #6e1876; border: none; border-radius: 4px; cursor: pointer; }
     #list { max-height: 200px; overflow-y: auto; background: white; border-radius: 4px; padding: 5px; }
-    .word-item { display: flex; justify-content: space-between; align-items: center; padding: 8px; border-bottom: 1px solid #eee; }
-    .delete-btn { background: #e74c3c; color: white; border: none; border-radius: 3px; padding: 2px 8px; cursor: pointer; font-size: 11px; }
+    .word-item { display: flex; justify-content: space-between; align-items: center; padding: 8px; border-bottom: 1px solid #c9abab; }
+    .delete-btn { background: #5c0627; color: rgb(227, 197, 197); border: none; border-radius: 3px; padding: 2px 8px; cursor: pointer; font-size: 11px; }
   </style>
 </head>
 <body>
-  <h3>Spoiler Shield 🛡️</h3>
+  <h3>Spoiler Alert!</h3>
   <div class="input-group">
-    <input type="text" id="wordInput" placeholder="Add show/character...">
+    <input type="text" id="wordInput" placeholder="Add the word you want to block">
     <button id="addBtn">Add</button>
   </div>
   <div id="list"></div>
